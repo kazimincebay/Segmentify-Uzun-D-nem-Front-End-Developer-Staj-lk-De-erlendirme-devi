@@ -1,0 +1,378 @@
+
+@media only screen and (max-width: 900px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    /* ----- Mobil Başlık -----*/
+    .title{
+        font-size:23pt;
+        margin-left:20px;
+        font-style: initial;
+    }
+    
+    /* -------- Menü -------- */
+    
+    .left-menu {
+        list-style: none;
+        display: block;
+        width: 100%;
+        
+    }
+
+    .left-menu-div{
+        height:20px;
+        display: inline;
+        position: relative;
+        margin:10px;
+        
+    }
+
+    .left-menu a{
+        font-size:5pt;
+        color:#000;
+        text-decoration: none;
+    }
+    .active{
+        border-bottom:blue 2px solid;
+    }
+
+
+    /* ------- Slider ------- */
+    .container{
+        width: 100%;
+        padding: 10px 40px;
+      }
+      .container .swiper-container{
+        width: 100%;
+        
+        height: 50%;
+        z-index: -1;
+      }
+      .container .swiper-slide {
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        border-radius: 15px;
+        text-align: start;
+        box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+       
+      }
+      .container .swiper-slide img{
+         display: block;
+          width: 100%;
+          height: 180px;
+          object-fit: cover;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+      
+      }
+      .container .swiper-slide .card-description{
+          padding:1rem 1rem;
+      }
+      .container .swiper-slide .card-title,.container .swiper-slide .card-text{
+         margin-bottom: .5rem;
+      }
+      .container .swiper-slide .card-link{
+         text-align: center;
+        
+      }
+      .container .swiper-slide .card-link a{
+          text-decoration: none;
+          color: #1d6ce2;
+      }
+      .swiper-button-next{
+          right: 26px !important;
+          visibility: hidden !important;
+      }
+      .swiper-button-prev{
+          left: 26px !important;
+          margin-left:250px;
+          margin-bottom:500px;
+          display: none !important;
+      }
+    
+  }
+
+
+
+/* ---- Pop-Up İkon ----- */ 
+
+.pop-up{
+    background-color:rgb(28, 35, 42);
+    height:60px;
+    width:300px;
+    color:#fff;
+    margin-left:20px;
+    display: none;
+    flex-direction: row;
+    border-radius: 15px;
+    margin-top: 3px;
+}
+
+.pop-up-icon{
+    border-radius: 50%;
+    height: 35px;
+    width:35px;
+    background-color: rgb(78,180,103);
+    margin-top:14px;
+    margin-left:10px;
+    color:#fff;
+    font-size:15pt;
+}
+
+.pop-up-text{
+    color:#fff;
+    font-size:13pt;
+    margin-top:22px;
+    margin-left:20px;
+}
+
+
+.pop-up-exit{
+    background-color: rgb(28, 35, 42);
+    border:0px;
+    color:#fff;
+    font-size:12pt;
+    margin-top:23px;
+    margin-left:40px;
+    cursor:pointer;
+}
+
+
+ /* ----Fiyat Kutucuğu  ---- */
+
+
+ .fiyat{
+    background-color: rgb(242, 242, 242);
+    border-radius:10px;
+    text-align: center;
+}
+
+/* ----- Kargo Ücreti Yazısı -----*/
+
+.kargo{
+    color:rgb(147,147,147);
+    height:150px;
+    width:100px;
+}
+
+.card-image{
+    width:100px;
+    height:45px;
+}
+
+/* ---- Sepete Ekle Butonu -----*/
+
+
+.basket{
+  width:90px;
+  height:50px;
+  background-color:rgb(42, 94, 241);
+  border:solid rgb(42, 94, 241) 1px;
+  border-radius:10px;
+  color:#fff;
+
+
+}
+
+
+
+
+  @media only screen and (min-width: 900px) {
+
+
+body{
+    padding: 0px;
+    border:0px;
+    margin:0px;
+    overflow-x: hidden;
+}
+
+/* ----- Başlık ------ */
+.title{
+    font-size:23pt;
+    margin-left:20px;
+    font-style: initial;
+}
+
+/* ------ Menü ------ */
+.left-menu{
+    float:left;
+    list-style: none;
+    font-size:13pt;
+    z-index: 1;
+    
+   
+}
+
+.left-menu-div{
+    margin-top:10px;
+    height:30px;
+    
+}
+
+.left-menu-link{
+    margin-top:10px;
+    margin-left:25px;
+    
+}
+
+
+.left-menu a{
+    text-decoration: none;
+    color:#000;
+    font-size:15pt;
+}
+
+
+.active{
+    border-left:3px blue solid;
+    color:blue;
+    background-color: aquamarine;
+    height:30px;
+    
+}
+
+/* ----- Slider ------- */
+
+.container{
+    width: 100%;
+    padding: 10px 40px;
+  }
+  .container .swiper-container{
+    width: 70%;
+    float:right;
+    height: 40%;
+    z-index: -1;
+  }
+  .container .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: start;
+    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+   
+  }
+  .container .swiper-slide img{
+     display: block;
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+  
+  }
+  .container .swiper-slide .card-description{
+      padding:1rem 1rem;
+  }
+  .container .swiper-slide .card-title,.container .swiper-slide .card-text{
+     margin-bottom: .5rem;
+  }
+  .container .swiper-slide .card-link{
+     text-align: center;
+    
+  }
+  .container .swiper-slide .card-link a{
+      text-decoration: none;
+      color: #1d6ce2;
+  }
+  .swiper-button-next{
+      right: 26px !important;
+  }
+  .swiper-button-prev{
+      left: 26px !important;
+      margin-left:250px;
+      margin-bottom:500px;
+      
+  }
+
+  /* ----Fiyat Kutucuğu  ---- */
+
+
+  .fiyat{
+      background-color: rgb(242, 242, 242);
+      border-radius:10px;
+      text-align: center;
+  }
+
+  /* ----- Kargo Ücreti Yazısı -----*/
+
+  .kargo{
+      color:rgb(147,147,147);
+      height:30px;
+      width:150px;
+  }
+
+ /* ------ Ürün Resmi ------ */
+  .card-image{
+    width:100px;
+    height:45px;
+}
+/* ---- Sepete Ekle Butonu -----*/
+
+
+.basket{
+    width:90px;
+    height:50px;
+    background-color:rgb(42, 94, 241);
+    border:solid rgb(42, 94, 241) 1px;
+    border-radius:10px;
+    color:#fff;
+
+
+}
+
+
+
+
+
+
+/* ---- Pop-Up İkon ----- */ 
+
+.pop-up{
+    background-color:rgb(28, 35, 42);
+    height:60px;
+    width:300px;
+    color:#fff;
+    margin-left:20px;
+    display: none;
+    flex-direction: row;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+
+.pop-up-icon{
+    border-radius: 50%;
+    height: 35px;
+    width:35px;
+    background-color: rgb(78,180,103);
+    margin-top:14px;
+    margin-left:10px;
+    color:#fff;
+    font-size:15pt;
+}
+
+.pop-up-text{
+    color:#fff;
+    font-size:13pt;
+    margin-top:22px;
+    margin-left:20px;
+}
+
+
+.pop-up-exit{
+    background-color: rgb(28, 35, 42);
+    border:0px;
+    color:#fff;
+    font-size:12pt;
+    margin-top:23px;
+    margin-left:40px;
+    cursor:pointer;
+}
+
+  }
